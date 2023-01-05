@@ -5,12 +5,16 @@ body {
 .container {
     max-width: 1180px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 26px;
+    padding-bottom: 25px;
 }
 .header-logo {
     display: block;
