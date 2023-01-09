@@ -271,7 +271,7 @@ header {
     display: block;
     width: 18px;
     height: 18px;
-    background-image: url(../images/cart-menu.svg);
+    background-image: url(../images/cart.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
