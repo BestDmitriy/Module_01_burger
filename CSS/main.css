@@ -761,20 +761,7 @@ header {
         display: block;
     }
     .footer-box {
-        display: flex;
-    justify-content: space-between;
-    }
-    .footer-item:nth-child(1) {
-        grid-area: logo;
-    }
-    .footer-item:nth-child(2) {
-        grid-area: link;
-    }
-    .footer-item:nth-child(3) {
-        grid-area: info;
-    }
-    .footer-tel {
-        grid-area: tel;
+        flex-direction: column;
     }
 }
 @media (max-width: 360px) {
