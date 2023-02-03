@@ -761,9 +761,9 @@ header {
         display: block;
     }
     .footer-box {
-        display: flex;
-        justify-content: space-between;
-        gap: 10px;
+        display: grid;
+        
+        gap: 0;
     }
     .footer-item:nth-child(1) {
         grid-area: logo;
