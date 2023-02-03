@@ -761,7 +761,8 @@ header {
         display: block;
     }
     .footer-box {
-        flex-direction: column;
+        display: flex;
+    justify-content: space-between;
     }
     .footer-item:nth-child(1) {
         grid-area: logo;
